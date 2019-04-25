@@ -9,8 +9,8 @@
 import Foundation
 
 class Question {
-    let question: String
-    let asker: String
+    var question: String
+    var asker: String
     var answer: String?
     var answerer: String?
     
@@ -20,4 +20,12 @@ class Question {
         self.answer = answer
         //answer and answerer are optional because there wll not be an answer  or answerer for a question as soon as it's created.
     }
+}
+
+extension Question: Equatable {
+    static func == (lhs: Question, rhs: Question) -> Bool {
+        return lhs.question == rhs.question && lhs.asker == rhs.asker && lhs.answer == rhs.answer && lhs.answerer == rhs.answerer
+    }
+    
+    
 }

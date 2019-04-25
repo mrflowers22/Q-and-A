@@ -16,5 +16,11 @@ class QuestionController {
         questions.append(question)
     }
     
+    func update(question: Question, newQuestion: String, newAsker: String){
+        question.question = newQuestion
+        question.asker = newAsker
+    }
+    
+    
     
 }
