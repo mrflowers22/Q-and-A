@@ -11,7 +11,7 @@ import Foundation
 class QuestionController {
     var questions: [Question] = []
     
-    func create(queston: String, and asker: String){
+    func create(queston: String, asker: String){
         let question = Question(question: queston, asker: asker)
         questions.append(question)
     }
