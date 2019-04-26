@@ -10,7 +10,7 @@ import UIKit
 
 class QuestionsTableViewCell: UITableViewCell {
     
-    var question: Question?{
+    var question: Question?{ //we are going to pass question in from the tableView controller.
         didSet {
             updateViews()
         }
