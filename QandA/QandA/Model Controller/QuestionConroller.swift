@@ -16,9 +16,9 @@ class QuestionController {
         questions.append(question)
     }
     
-    func update(question: Question, newQuestion: String, newAsker: String){
-        question.question = newQuestion
-        question.asker = newAsker
+    func update(question: Question, newAnswerer: String, newAnswer: String){
+        question.answerer = newAnswerer
+        question.asker = newAnswer
     }
     
     func delete(question: Question){
