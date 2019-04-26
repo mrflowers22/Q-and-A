@@ -115,7 +115,7 @@
         <!--Answer-->
         <scene sceneID="9Cb-yM-WiX">
             <objects>
-                <viewController id="6N4-6p-lqC" sceneMemberID="viewController">
+                <viewController id="6N4-6p-lqC" customClass="AnswerViewController" customModule="QandA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sg0-Iv-rCL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,9 +164,19 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Answer" id="q0Y-Qv-YC3">
-                        <barButtonItem key="rightBarButtonItem" title="Submit Answer" id="h40-Tb-hwr"/>
+                        <barButtonItem key="rightBarButtonItem" title="Submit Answer" id="h40-Tb-hwr">
+                            <connections>
+                                <action selector="sumbitAnswer:" destination="6N4-6p-lqC" id="PH4-FB-UCd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="answerTextView" destination="txb-cl-Ata" id="5Uj-l6-6lA"/>
+                        <outlet property="answererTextField" destination="KGc-SY-PPF" id="w1W-X0-6c8"/>
+                        <outlet property="askerLabel" destination="hys-ct-AZF" id="RHZ-Jw-UVm"/>
+                        <outlet property="questionLabel" destination="xtV-vO-xLY" id="jNq-no-9wB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XTn-Fr-xui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -16,6 +16,7 @@
 		1B3214232273264200EDDF25 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3214222273264200EDDF25 /* QuestionsTableViewController.swift */; };
 		1B321425227327F200EDDF25 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B321424227327F200EDDF25 /* QuestionsTableViewCell.swift */; };
 		1B32142722732A4F00EDDF25 /* AskQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32142622732A4F00EDDF25 /* AskQuestionsViewController.swift */; };
+		1B32142C22733B0900EDDF25 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32142B22733B0900EDDF25 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1B3214222273264200EDDF25 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
 		1B321424227327F200EDDF25 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
 		1B32142622732A4F00EDDF25 /* AskQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionsViewController.swift; sourceTree = "<group>"; };
+		1B32142B22733B0900EDDF25 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1B32142622732A4F00EDDF25 /* AskQuestionsViewController.swift */,
+				1B32142B22733B0900EDDF25 /* AnswerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B32142722732A4F00EDDF25 /* AskQuestionsViewController.swift in Sources */,
+				1B32142C22733B0900EDDF25 /* AnswerViewController.swift in Sources */,
 				1B32141F2272582C00EDDF25 /* QuestionConroller.swift in Sources */,
 				1B3214232273264200EDDF25 /* QuestionsTableViewController.swift in Sources */,
 				1B321425227327F200EDDF25 /* QuestionsTableViewCell.swift in Sources */,
